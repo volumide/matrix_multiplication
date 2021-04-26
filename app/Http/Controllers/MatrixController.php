@@ -17,6 +17,12 @@ class MatrixController extends Controller
             ], 401);
         }
 
+        if (!is_array($matrix1) || !is_array($matrix2)) {
+            return response()->json([
+                "message" => "matrix must be an array"
+            ], 403);
+        }
+
         // check if matix have equal rows
         if ($this->checkMatrixRowColumn($matrix1)) {
             return response()->json([
