@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p> -->
 
 <!-- <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -14,9 +14,8 @@ A laravel app that multiply two matrixes and returns the answer in alphabets
 ## How to use this repo
 
 ```
-	git clone https://github.com/volumide/matrix_multiplication.git
-	php artisan serve
-
+git clone https://github.com/volumide/matrix_multiplication.git
+php artisan serve
 ```
 visit http://127.0.0.1:8000/api/test on your computer to run the test 
 
